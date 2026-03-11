@@ -1,0 +1,51 @@
+/* basic reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Georgia', serif;
+    background-color: #333;
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 0;
+    background: lab(98.2% 3.22 -2.65 / 0.301);
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.article {
+    background: rgba(247, 203, 10, 0.9);
+    padding: 1rem;
+    flex: 1 1 calc(50% - 4rem);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.article img {
+    max-width: 100%;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: rgba(240, 223, 75, 0.8);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
